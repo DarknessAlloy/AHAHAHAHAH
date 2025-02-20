@@ -1,0 +1,17 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1740090364
+::res://Project_Western_Goobers/::1740090275
+README.md::TextFile::-1::1740090249::0::1::::<><>::
+::res://Project_Western_Goobers/Art/::1740090275
+icon.svg::CompressedTexture2D::1365724979131462963::1740090249::1740090366::1::::<><>::
+::res://Project_Western_Goobers/Objects/::1740090275
+::res://Project_Western_Goobers/Objects/Character_Files/::1740090275
+base_ene.tscn::PackedScene::5491920270260145947::1740090249::0::1::::<><>::uid://tptj5in5odfn::::res://Project_Western_Goobers/Art/icon.svg<>res://Project_Western_Goobers/Objects/Character_Files/Enemy_AI.gd
+Enemy_AI.gd::GDScript::-1::1740090249::0::1::::<>CharacterBody2D<>::
+plr.tscn::PackedScene::7334412918231406022::1740090249::0::1::::<><>::res://Project_Western_Goobers/Scripts/plr.gd<>uid://tptj5in5odfn::::res://Project_Western_Goobers/Art/icon.svg
+::res://Project_Western_Goobers/Scenes/::1740090276
+::res://Project_Western_Goobers/Scenes/Main-World/::1740090276
+Main.tscn::PackedScene::5296471207284356614::1740090249::0::1::::<><>::res://Project_Western_Goobers/Scripts/Main.gd<>uid://dcq3yd3c8jexq::::res://Project_Western_Goobers/Objects/Character_Files/plr.tscn<>uid://ckileh5h4r7v0::::res://Project_Western_Goobers/Objects/Character_Files/base_ene.tscn
+::res://Project_Western_Goobers/Scripts/::1740090275
+Main.gd::GDScript::-1::1740090249::0::1::::<>Node2D<>::
+plr.gd::GDScript::-1::1740090249::0::1::::<>CharacterBody2D<>::
