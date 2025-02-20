@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://chpwdvv7j60ry"]
+
+[ext_resource type="Script" path="res://Project_Western_Goobers/Scripts/Main.gd" id="1_8qcgr"]
+[ext_resource type="PackedScene" uid="uid://dcq3yd3c8jexq" path="res://Project_Western_Goobers/Objects/Character_Files/plr.tscn" id="2_k4x3p"]
+[ext_resource type="PackedScene" uid="uid://ckileh5h4r7v0" path="res://Project_Western_Goobers/Objects/Character_Files/base_ene.tscn" id="2_omtft"]
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_8qcgr")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position_smoothing_enabled = true
+
+[node name="Enemy_File" type="Node" parent="."]
+
+[node name="Base_ENE" parent="Enemy_File" instance=ExtResource("2_omtft")]
+
+[node name="Player_Folder" type="Node" parent="."]
+
+[node name="PLR1" parent="Player_Folder" instance=ExtResource("2_k4x3p")]
+
+[node name="PLR2" parent="Player_Folder" instance=ExtResource("2_k4x3p")]
+position = Vector2(-164, -2)

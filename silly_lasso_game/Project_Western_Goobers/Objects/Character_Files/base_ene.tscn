@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://ckileh5h4r7v0"]
+
+[ext_resource type="Texture2D" uid="uid://tptj5in5odfn" path="res://Project_Western_Goobers/Art/icon.svg" id="1_0ypug"]
+[ext_resource type="Script" path="res://Project_Western_Goobers/Objects/Character_Files/Enemy_AI.gd" id="1_kgyh7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_j5ia8"]
+radius = 14.8661
+
+[node name="Base_ENE" type="CharacterBody2D" groups=["PLR", "Players"]]
+script = ExtResource("1_kgyh7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.171875, 0.171875)
+texture = ExtResource("1_0ypug")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_j5ia8")

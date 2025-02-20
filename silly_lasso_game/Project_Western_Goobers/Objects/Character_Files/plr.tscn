@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://dcq3yd3c8jexq"]
+
+[ext_resource type="Script" path="res://Project_Western_Goobers/Scripts/plr.gd" id="1_eblt0"]
+[ext_resource type="Texture2D" uid="uid://tptj5in5odfn" path="res://Project_Western_Goobers/Art/icon.svg" id="2_nn4jv"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_a3eq5"]
+
+[node name="PLR" type="CharacterBody2D" groups=["Players"]]
+script = ExtResource("1_eblt0")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1.66297e-05, 1.75238e-05)
+scale = Vector2(0.140625, 0.140625)
+texture = ExtResource("2_nn4jv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_a3eq5")
+
+[node name="Time_Vars" type="Node" parent="."]
+
+[node name="Lasso_Time" type="Timer" parent="Time_Vars"]
+
+[node name="Immunity_Frame" type="Timer" parent="Time_Vars"]
+
+[node name="Mount_Sprite" type="Sprite2D" parent="."]
+position = Vector2(0, 10.25)
+scale = Vector2(0.148437, 0.128906)
